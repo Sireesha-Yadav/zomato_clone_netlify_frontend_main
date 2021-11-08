@@ -20,7 +20,7 @@ export const getSpecificRestaurant = (_id) => async (dispatch) => {
   try {
     const restaurant = await axios({
       method: "GET",
-      url: `https://zomato-clone-heroku-backend2.herokuapp.com//restaurant/${_id}`,
+      url: `https://zomato-clone-heroku-backend2.herokuapp.com/restaurant/${_id}`,
     });
 
     return dispatch({

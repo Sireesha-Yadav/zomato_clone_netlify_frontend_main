@@ -35,7 +35,7 @@ export const signUp = (userData) => async (dispatch) => {
       data: { credentials: userData },
     });
 
-    window.location.href = "https://zomato-clone-netlify.netlify.app/delivery";
+    window.location.href = "https://zomato-clone-netlify2.netlify.app/delivery";
 
     localStorage.setItem(
       "zomatoUser",
